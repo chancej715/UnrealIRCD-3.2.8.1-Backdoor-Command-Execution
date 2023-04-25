@@ -12,11 +12,11 @@ Start a Netcat listener on the listening host:
 nc -lp 4444
 ```
 
-Execute the script, providing the following arguments:
-- Target host IP address.
-- Target host port number.
-- Listening host IP address.
-- Listening host port number.
+Execute the script, providing the following positional arguments:
 ```
-python3 script.py <target> <port> <listener> <port>
+python3 script.py <target> <tport> <listener> <lport>
 ```
+- `<target>` Target host IP address.
+- `<tport>` Target host port number.
+- `<listener>` Listening host IP address.
+- `<lport>` Listening host port number.
